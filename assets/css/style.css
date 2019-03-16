@@ -1,0 +1,91 @@
+* {
+    font-family: 'Raleway', sans-serif;
+    color: #777777;
+    background-color: #fff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Raleway', sans-serif;
+}
+
+html, body {
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+body header {
+    border-bottom: 1px solid #cccccc;
+}
+
+body header h1 {
+    color: #fff;
+    background-color: #cfc319;
+    padding: 20px;
+    margin: 0;
+    width: 180px;
+}
+
+header div {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    max-width: 960px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+header nav {
+    padding: 29px 0px 29px 0px;
+    display: flex;
+    width: 300px;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 0px 10px 0px 10px;
+    border-right: 1px solid #eeeeee;
+    flex-basis: 100px;
+}
+
+nav a:hover {
+    color: #fff;
+    background-color: #cfc319ed;
+}
+
+main {
+    background-image: url("../images/wov.png");
+    margin-top: 0px;
+    padding: 20px;
+    height: 100%;
+}
+
+main article {
+    box-sizing: border-box;
+    background-color: #fff;
+    max-width: 960px;
+    margin: 0px auto;
+    padding: 0px 20px 0px 20px;
+    overflow: hidden;
+    height: auto;
+    line-height: 150%;
+    border: 1px solid #dddddd;
+}
+
+article h1 {
+    color: #cfc319;
+    padding: 30px 0px 30px 0px;
+    border-bottom: 1px solid #cccccc;
+}
+
+footer {
+    padding: 20px 0px 20px 0px;
+    background-color: gray;
+    border-top: 5px solid #cfc319ed;
+    text-align: center;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}

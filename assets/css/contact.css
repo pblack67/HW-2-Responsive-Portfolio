@@ -1,0 +1,16 @@
+.inputtext {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+main textarea {
+    width: 100%;
+    height: 200px;
+}
+
+.submitbutton {
+    margin: 10px 0px 20px 0px;
+    background-color: #cfc319;
+    color: #fff;
+    padding: 5px 15px 5px 15px;
+}
