@@ -17,10 +17,6 @@ html {
     height: 100%;
 }
 
-body {
-    /* height: 100%; */
-}
-
 body header {
     border-bottom: 1px solid #cccccc;
 }
@@ -62,19 +58,16 @@ nav a:hover {
 
 main {
     background-image: url("../images/wov.png");
-    margin: 0 auto -50px;
-    padding: 20px;
-    /* height: 100%; */
+    margin: 0 auto;
+    padding: 20px 20px 75px 20px;
 }
 
 main article {
     box-sizing: border-box;
     background-color: #fff;
-    max-width: 960px;
+    width: 960px;
     margin: 0px auto;
     padding: 0px 20px 0px 20px;
-    /* overflow: hidden; */
-    /* height: auto; */
     line-height: 150%;
     border: 1px solid #dddddd;
 }
@@ -97,6 +90,20 @@ footer {
     width: 100%;
 }
 
+@media only screen and (max-width: 980px) {
+
+    main article {
+        width: 708px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+    main article {
+        width: 600px;
+    }
+}
+
 @media only screen and (max-width: 640px) {
 
     header div {
@@ -111,5 +118,9 @@ footer {
     header nav {
         width: 100%;
         justify-content: center;
+    }
+
+    main article {
+        width: 300px;
     }
 }
