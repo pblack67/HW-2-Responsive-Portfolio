@@ -3,3 +3,11 @@ article img {
     float: left;
     margin-right: 20px;
 }
+
+@media only screen and (max-width: 640px) {
+    article img {
+        width: 100%;
+        height: inherit;
+    }
+    
+}
